@@ -17,8 +17,7 @@ public class CreateController {
     private StudentDao studentDao;
 
     @RequestMapping(value="/")
-    public  String defaultPage()
-    {
+    public  String defaultPage() {
         return "index";
     }
 
